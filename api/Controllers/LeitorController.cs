@@ -4,7 +4,7 @@ namespace API_Biblioteca.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class LeitorController
+    public class LeitorController : ControllerBase
     {
         [HttpGet]
 

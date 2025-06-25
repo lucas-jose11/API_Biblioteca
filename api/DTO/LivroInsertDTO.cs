@@ -1,6 +1,6 @@
 ﻿namespace API_Biblioteca.DTO
 {
-    public class LeitorDTO
+    public class LivroInsertDTO
     {
         public string Nome { get; set; }
 

@@ -5,7 +5,7 @@ namespace API_Biblioteca.Infraestructure
 {
     public class Connection
     {
-        protected string connectionString = "Server=localhost;Database=locamobi;User=root;Password=root;";
+        protected string connectionString = "Server=localhost;Database=locamobi;User=root;Password=toor;";
 
         public MySqlConnection GetConnection() // conecta com o banco usando uma biblioteca
         {
@@ -21,4 +21,3 @@ namespace API_Biblioteca.Infraestructure
         }
     }
 }
-
