@@ -1,6 +1,6 @@
 ﻿namespace API_Biblioteca.Entity
 {
-    public class Livro
+    public class LivroEntity
     {
         public int Id { get; set; }
 

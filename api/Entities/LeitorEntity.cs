@@ -1,7 +1,7 @@
 ﻿
 namespace API_Biblioteca.Entity
 {
-    public class Leitor
+    public class LeitorEntity
     {
         public int Id { get; set; }
 

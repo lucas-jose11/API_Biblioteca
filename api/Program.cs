@@ -1,4 +1,7 @@
 
+using API_Biblioteca.Contracts.Services;
+using API_Biblioteca.Services;
+
 namespace API_Biblioteca
 {
     public class Program
@@ -15,6 +18,9 @@ namespace API_Biblioteca
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+
+            //Dependências
+            builder.Services.AddScoped<ILeitorService, LeitorService>();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

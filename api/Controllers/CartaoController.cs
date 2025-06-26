@@ -1,6 +1,12 @@
-﻿namespace API_Biblioteca.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace API_Biblioteca.Controllers
 {
-    public class CartaoController
+    [ApiController]
+    [Route("[controller]")]
+    public class CartaoController : ControllerBase
     {
+      
+        
     }
 }

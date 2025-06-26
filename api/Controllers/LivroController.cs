@@ -1,6 +1,10 @@
-﻿namespace API_Biblioteca.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace API_Biblioteca.Controllers
 {
-    public class LivroController
+    [ApiController]
+    [Route("[controller]")]
+    public class LivroController : ControllerBase
     {
     }
 }
