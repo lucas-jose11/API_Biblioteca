@@ -2,4 +2,4 @@
 
 Projeto de fazer uma database, feita no MySQL Workebench 8.0 CE, sobre uma biblioteca com seus leitores e livros.
 <br>
-Além de fazer uma API e conectar para conseguir fazer CRUD no Swagger.
+Além de fazer uma API e conectar para conseguir fazer CRUD.
