@@ -11,3 +11,4 @@ Permite que usuários façam cadastro, pesquisem livros no acervo e lancem seus 
 ### 🛠 Tecnologias utilizadas
 - **MySQL Workbench 8.0 CE** — modelagem e criação do banco de dados
 - **C#** — desenvolvimento da API
+- No Front-end ainda será decidido exatamente, embora a linguagem será JavaScript.
