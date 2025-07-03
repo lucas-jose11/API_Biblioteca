@@ -1,0 +1,2 @@
+Aqui é a pasta onde ficará a parte de front, responsável por toda a parte de visualização do sistema.
+Front-end.
