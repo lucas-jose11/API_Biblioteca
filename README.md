@@ -1,5 +1,13 @@
-<h3><strong>API de Biblioteca</strong></h3>
+## 📚 Projeto Biblioteca
 
-Projeto de fazer uma database, feita no MySQL Workebench 8.0 CE, sobre uma biblioteca com seus leitores e livros.
-<br>
-Além de fazer uma API e conectar para conseguir fazer CRUD.
+Este projeto é uma aplicação web que simula o funcionamento de uma biblioteca digital.  
+Permite que usuários façam cadastro, pesquisem livros no acervo e lancem seus próprios livros.
+
+### 🔑 Funcionalidades
+- Cadastro e login de usuários
+- Pesquisa de livros disponíveis
+- Lançamento de novos livros
+
+### 🛠 Tecnologias utilizadas
+- **MySQL Workbench 8.0 CE** — modelagem e criação do banco de dados
+- **C#** — desenvolvimento da API
