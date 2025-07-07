@@ -23,7 +23,8 @@ namespace API_Biblioteca
 
             //Dependências
             builder.Services.AddSingleton<IConnection, Connection>();
-            builder.Services.AddScoped<ICartaoService, CartaoService>();
+            builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+            builder.Services.AddScoped<IAvaliacaoService, AvaliacaoService>();
             builder.Services.AddScoped<ILeitorService, LeitorService>();
             builder.Services.AddScoped<ILivroService, LivroService>();
             builder.Services.AddScoped<IUsuarioService, UsuarioService>();

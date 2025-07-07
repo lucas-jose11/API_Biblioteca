@@ -11,5 +11,7 @@
         public string Senha { get; set; }
 
         public string Nacionalidade { get; set; }
-    }
+
+        public DateOnly DataCadastro { get; set;
+        }
 }

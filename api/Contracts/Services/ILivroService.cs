@@ -1,5 +1,5 @@
 ﻿using API_Biblioteca.DTO;
-using API_Biblioteca.Entity;
+using API_Biblioteca.Entities;
 using API_Biblioteca.Response;
 using API_Biblioteca.Response.Livro;
 

@@ -1,5 +1,5 @@
 ﻿
-namespace API_Biblioteca.Entity
+namespace API_Biblioteca.Entities
 {
     public class LeitorEntity
     {

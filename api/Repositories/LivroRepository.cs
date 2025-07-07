@@ -1,6 +1,6 @@
 ﻿using API_Biblioteca.Contracts.Repositories;
 using API_Biblioteca.DTO;
-using API_Biblioteca.Entity;
+using API_Biblioteca.Entities;
 
 namespace API_Biblioteca.Repositories
 {

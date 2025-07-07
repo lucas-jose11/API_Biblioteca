@@ -1,32 +1,32 @@
-﻿using API_Biblioteca.Contracts.Repository;
+﻿using API_Biblioteca.Contracts.Repositories;
 using API_Biblioteca.DTO;
 using API_Biblioteca.Entities;
 
-namespace API_Biblioteca.Repository
+namespace API_Biblioteca.Repositories
 {
-    public class LeitorRepository : ILeitorRepository
+    public class AvaliacaoRepository : IAvaliacaoRepository
     {
         public Task Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<LeitorEntity>> GetAll()
+        public Task<IEnumerable<AvaliacaoEntity>> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<LeitorEntity> GetById(int id)
+        public Task<AvaliacaoEntity> GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task Insert(LeitorInsertDTO leitor)
+        public Task Insert(AvaliacaoInsertDTO avaliacao)
         {
             throw new NotImplementedException();
         }
 
-        public Task Update(LeitorEntity leitor)
+        public Task Update(AvaliacaoEntity avaliacao)
         {
             throw new NotImplementedException();
         }

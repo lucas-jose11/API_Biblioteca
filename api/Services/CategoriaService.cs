@@ -2,33 +2,33 @@
 using API_Biblioteca.DTO;
 using API_Biblioteca.Entities;
 using API_Biblioteca.Response;
-using API_Biblioteca.Response.Livro;
+using API_Biblioteca.Response.Categoria;
 
 namespace API_Biblioteca.Services
 {
-    public class LivroService : ILivroService
+    public class CategoriaService : ICategoriaService
     {
         public Task<MessageResponse> Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<LivroGetAllResponse> GetAll()
+        public Task<CategoriaGetAllResponse> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<LivroEntity> GetById(int id)
+        public Task<CategoriaEntity> GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<MessageResponse> Post(LivroInsertDTO livro)
+        public Task<MessageResponse> Post(CategoriaInsertDTO categoria)
         {
             throw new NotImplementedException();
         }
 
-        public Task<MessageResponse> Update(LivroEntity livro)
+        public Task<MessageResponse> Update(CategoriaEntity categoria)
         {
             throw new NotImplementedException();
         }

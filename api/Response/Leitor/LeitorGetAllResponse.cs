@@ -1,4 +1,4 @@
-﻿using API_Biblioteca.Entity;
+﻿using API_Biblioteca.Entities;
 
 namespace API_Biblioteca.Response.Leitor
 {

@@ -1,32 +1,32 @@
 ﻿using API_Biblioteca.Contracts.Repositories;
 using API_Biblioteca.DTO;
-using API_Biblioteca.Entity;
+using API_Biblioteca.Entities;
 
 namespace API_Biblioteca.Repositories
 {
-    public class CartaoRepository : ICartaoRepository
+    public class CategoriaRepository : ICategoriaRepository
     {
         public Task Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<CartaoEntity>> GetAll()
+        public Task<IEnumerable<CategoriaEntity>> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<CartaoEntity> GetById(int id)
+        public Task<CategoriaEntity> GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task Insert(CartaoInsertDTO cartao)
+        public Task Insert(CategoriaInsertDTO categoria)
         {
             throw new NotImplementedException();
         }
 
-        public Task Update(CartaoEntity cartao)
+        public Task Update(CategoriaEntity categoria)
         {
             throw new NotImplementedException();
         }
