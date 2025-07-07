@@ -1,34 +1,34 @@
 ﻿using API_Biblioteca.Contracts.Services;
 using API_Biblioteca.DTO;
-using API_Biblioteca.Entity;
+using API_Biblioteca.Entities;
 using API_Biblioteca.Response;
-using API_Biblioteca.Response.Livro;
+using API_Biblioteca.Response.Usuario;
 
 namespace API_Biblioteca.Services
 {
-    public class LivroService : ILivroService
+    public class UsuarioService : IUsuarioService
     {
         public Task<MessageResponse> Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<LivroGetAllResponse> GetAll()
+        public Task<UsuarioGetAllResponse> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<LivroEntity> GetById(int id)
+        public Task<UsuarioEntity> GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<MessageResponse> Post(LivroInsertDTO livro)
+        public Task<MessageResponse> Post(UsuarioInsertDTO usuario)
         {
             throw new NotImplementedException();
         }
 
-        public Task<MessageResponse> Update(LivroEntity livro)
+        public Task<MessageResponse> Update(UsuarioEntity usuario)
         {
             throw new NotImplementedException();
         }
