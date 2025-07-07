@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AgGX4PZBYAE=",
+  "dgSpecHash": "F6Kt75g1EC0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\source\\repositórios Pessoais\\API_Biblioteca\\api\\API_Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\source\\repositórios Pessoais\\Biblioteca\\api\\API_Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
