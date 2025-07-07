@@ -1,9 +1,10 @@
-﻿using Dapper;
+﻿using API_Biblioteca.Contracts.Infrestructure;
+using Dapper;
 using MySql.Data.MySqlClient;
 
 namespace API_Biblioteca.Infraestructure
 {
-    public class Connection
+    public class Connection : IConnection
     {
         protected string connectionString = "Server=localhost;Database=locamobi;User=root;Password=toor;";
 

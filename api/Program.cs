@@ -1,5 +1,7 @@
 
+using API_Biblioteca.Contracts.Infrestructure;
 using API_Biblioteca.Contracts.Services;
+using API_Biblioteca.Infraestructure;
 using API_Biblioteca.Services;
 
 namespace API_Biblioteca
@@ -20,7 +22,11 @@ namespace API_Biblioteca
             var app = builder.Build();
 
             //Dependências
+            builder.Services.AddSingleton<IConnection, Connection>();
+            builder.Services.AddScoped<ICartaoService, CartaoService>();
             builder.Services.AddScoped<ILeitorService, LeitorService>();
+            builder.Services.AddScoped<ILivroService, LivroService>();
+            builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
