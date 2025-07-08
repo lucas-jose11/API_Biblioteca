@@ -1,4 +1,5 @@
 ﻿using API_Biblioteca.Contracts.Services;
+using API_Biblioteca.Entities;
 using API_Biblioteca.Response.Leitor;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,18 @@ namespace API_Biblioteca.Controllers
         {
             return Ok(await _service.GetAll());
         }
+
+        [HttpGet]
+        public async Task<ActionResult<LeitorEntity>> GetById(int id)
+        {
+            var leitor = await _service.GetById(id);
+            if (leitor == null)
+            {
+                return NotFound();
+            }
+            return Ok(leitor);
+        }
+
 
     }
 }
